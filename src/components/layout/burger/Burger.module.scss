@@ -1,0 +1,20 @@
+.wrapper {
+	position: relative;
+
+	button {
+		background-color: transparent;
+		border: none;
+		outline: none;
+		cursor: pointer;
+	}
+
+	> button {
+		display: flex;
+		font-size: 32px;
+
+		> svg > path {
+			fill: #fff;
+			stroke: #fff;
+		}
+	}
+}

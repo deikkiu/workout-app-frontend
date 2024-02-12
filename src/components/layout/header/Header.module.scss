@@ -1,0 +1,17 @@
+.header {
+	@include flex-horizontal-center;
+	justify-content: space-between;
+
+	> button {
+		font-size: 28px;
+
+		background-color: transparent;
+		border: none;
+		outline: none;
+		cursor: pointer;
+
+		> svg > path {
+			fill: #fff;
+		}
+	}
+}
